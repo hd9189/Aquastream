@@ -1,0 +1,81 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: gainsboro;
+    padding: 0px;
+    color: white; 
+}
+
+h1{
+    margin: 50px;
+    text-align: center;
+    color: black;
+}
+
+nav {
+    background-color: rgb(4,20,131);
+    color: #fff;
+    text-align: center;
+    height: 100px; /* thicker nav bar */
+    line-height: 100px; /* center nav items vertically */
+}
+
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+text-align: right;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px 50px;
+}
+
+nav li:hover{
+    background-color: rgb(132, 151, 246);
+    color: black;
+}
+
+nav a {
+color: #fff;
+text-decoration: none;
+font-size: 18px;
+}
+
+.camera-container {
+display: flex;
+justify-content: center;
+}
+
+.big-camera-feed {
+width: 75%; /* make the big camera feed take up 75% of the space */
+height: 300px;
+}
+
+.big-camera-feed img {
+width: 100%; /* make the image fill the entire element */
+height: 660px;
+}
+
+.small-camera-feeds {
+width: 25%; /* make the small camera feeds take up 25% of the space */
+display: flex; /* display the small camera feeds in one column */
+flex-direction: column; /* stack the small camera feeds in one column */
+}
+
+.small-camera-feed {
+margin: 1px;
+}
+
+.small-camera-feed img {
+width: 100%; /* make the images fill the entire small camera feed elements */
+}
+
+.logo{
+    position: absolute;
+    height: 100px;
+    left: 10px;
+    width: auto;
+
+}
